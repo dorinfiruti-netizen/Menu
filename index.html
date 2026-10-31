@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sheikh · Meniu</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500;600;700&family=Saira:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#ffffff; --card:#ffffff; --head:#ffffff; --ink:#1d2b36; --muted:#6b7680;
   --deep:#0b4f72; --deep2:#083a55; --gold:#c8a662; --gold-d:#a8853f; --line:#e3e8ee; --soft:#f3f6f9;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Jost,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:Saira,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 button{font:inherit;color:inherit;cursor:pointer}
-.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.serif{font-family:"Saira Semi Condensed",system-ui,sans-serif}
 .view{display:none;min-height:100vh}
 .view.on{display:block;animation:fade .3s ease}
 @keyframes fade{from{opacity:0}}
@@ -28,7 +28,7 @@ header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14p
 .orn{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--gold)}
 .orn::before,.orn::after{content:"";height:1px;width:46px;background:linear-gradient(90deg,transparent,var(--gold))}
 .orn::after{transform:scaleX(-1)}
-.logo{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:38px;letter-spacing:.5px;color:var(--gold);margin:10px 0 2px;line-height:1.1}
+.logo{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-weight:600;font-size:38px;letter-spacing:.5px;color:var(--gold);margin:10px 0 2px;line-height:1.1}
 .logo span{color:#f3ead6}
 .tagline{color:var(--muted);font-size:13px;letter-spacing:2.5px;text-transform:uppercase}
 .search{margin:20px auto 0;max-width:520px;position:relative}
@@ -36,7 +36,7 @@ header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14p
 .search input::placeholder{color:#97a1aa}
 .search input:focus{border-color:var(--gold);background:#fff}
 .search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--gold)}
-.sect{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:26px;color:var(--deep);text-align:center;margin:28px 20px 14px;display:flex;align-items:center;justify-content:center;gap:12px}
+.sect{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-weight:600;font-size:22px;color:var(--deep);text-align:center;margin:28px 20px 14px;display:flex;align-items:center;justify-content:center;gap:12px}
 .sect::before,.sect::after{content:"✦";font-size:12px;color:var(--gold)}
 .carousel{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 22px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .carousel::-webkit-scrollbar{display:none}
@@ -44,7 +44,7 @@ header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14p
 .chap .art{aspect-ratio:4/4.3;border-radius:999px 999px 10px 10px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
 .chap .art svg,.chap .art img{width:100%;height:100%;display:block;object-fit:cover}
 .chap .lbl{padding:14px 10px 18px;display:flex;flex-direction:column;align-items:center;gap:4px}
-.chap .t{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;font-weight:600;color:var(--deep)}
+.chap .t{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-size:22px;font-weight:600;color:var(--deep)}
 .chap .n{font-size:12px;color:var(--gold-d);letter-spacing:1.5px;text-transform:uppercase}
 .go{display:none}
 .dots{display:flex;justify-content:center;gap:7px;margin:8px 0 4px}
@@ -59,7 +59,7 @@ header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14p
 .bar{position:sticky;top:0;z-index:5;color:var(--ink);border-bottom:2px solid var(--gold);box-shadow:0 4px 14px rgba(11,79,114,.06)}
 .bartop{display:flex;align-items:center;gap:10px;padding:14px 14px 6px;max-width:900px;margin:0 auto}
 .back{background:transparent;border:1px solid var(--deep);color:var(--deep);border-radius:999px;padding:6px 13px 6px 9px;display:flex;align-items:center;gap:4px;font-size:14px}
-.bartop h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:28px;color:var(--deep);flex:1;text-align:center;margin-right:74px}
+.bartop h1{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-weight:600;font-size:23px;color:var(--deep);flex:1;text-align:center;margin-right:74px}
 .tabs{display:flex;gap:8px;overflow-x:auto;padding:8px 14px 14px;max-width:900px;margin:0 auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{flex:none;border:1px solid var(--line);background:#fff;color:var(--deep);padding:6px 15px;border-radius:999px;font-size:14px}
@@ -71,12 +71,12 @@ main{max-width:900px;margin:0 auto;padding:18px 14px 40px}
 .thumb{flex:none;width:92px;height:104px;border-radius:999px 999px 10px 10px;overflow:hidden;background:var(--soft)}
 .thumb img,.thumb svg{width:100%;height:100%;object-fit:cover;display:block}
 .info{display:flex;flex-direction:column;min-width:0;flex:1;padding-top:4px}
-.name{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:20px;line-height:1.15;color:var(--deep)}
+.name{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-weight:600;font-size:17px;line-height:1.15;color:var(--deep)}
 .desc{color:var(--muted);font-size:13px;line-height:1.45;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .row{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;padding-top:6px;border-top:1px dashed var(--line)}
-.price{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;color:var(--deep);font-size:21px}
+.price{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-weight:700;color:var(--deep);font-size:18px}
 .meta{font-size:12px;color:var(--muted)}
-.badge{display:inline-block;font-family:Jost,sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold-d);padding:1px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
+.badge{display:inline-block;font-family:Saira,sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold-d);padding:1px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
 .nav2{display:flex;justify-content:space-between;gap:10px;margin-top:24px}
 .nav2 button{flex:1;border:1px solid var(--gold);background:transparent;color:var(--deep);border-radius:999px;padding:12px;font-size:14px;font-weight:500}
 .nav2 button:disabled{visibility:hidden}
@@ -91,9 +91,9 @@ main{max-width:900px;margin:0 auto;padding:18px 14px 40px}
 .hero{aspect-ratio:1/1;max-height:52vh;margin:0 auto;border-radius:999px 999px 14px 14px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
 .hero img,.hero svg{width:100%;height:100%;object-fit:cover;display:block}
 .body{padding:18px 8px 28px;text-align:center}
-.body h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:30px;font-weight:700;color:var(--deep)}
+.body h3{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-size:25px;font-weight:700;color:var(--deep)}
 .body p{color:var(--muted);line-height:1.6;margin-top:8px;font-size:15px}
-.body .price{font-size:28px;margin-top:12px;display:block}
+.body .price{font-size:23px;margin-top:12px;display:block}
 .dmeta{margin-top:8px;font-size:12px;color:var(--gold-d);letter-spacing:1.5px;text-transform:uppercase}
 .close{position:absolute;top:24px;right:24px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;z-index:2}
 /* ---------- ALEGERE LIMBĂ ---------- */
@@ -101,7 +101,7 @@ main{max-width:900px;margin:0 auto;padding:18px 14px 40px}
 #v-lang{min-height:100vh;min-height:100dvh;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 26px}
 #v-lang .orn{margin-bottom:22px}
 .splash-logo{width:84%;max-width:380px;height:auto;display:block;margin:0 auto}
-.splash-sub{font-family:"Cormorant Garamond",Georgia,serif;font-size:24px;color:var(--deep);margin:22px 0 4px;font-weight:600}
+.splash-sub{font-family:"Saira Semi Condensed",system-ui,sans-serif;font-size:20px;color:var(--deep);margin:22px 0 4px;font-weight:600}
 .splash-sub2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold-d)}
 .langs{display:flex;flex-direction:column;gap:12px;width:100%;max-width:300px;margin:34px auto 0}
 .langs button{border:1px solid var(--deep);background:#fff;color:var(--deep);border-radius:999px;padding:15px;font-size:17px;font-weight:500;display:flex;align-items:center;justify-content:center;gap:10px}
