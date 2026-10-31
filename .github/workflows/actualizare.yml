@@ -1,1 +1,39 @@
+name: Actualizare meniu din tabel
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: actualizare-meniu
+  cancel-in-progress: true
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copiază tabelul Google în data.json
+        shell: python
+        run: |
+          import csv, io, json, urllib.parse, urllib.request
+          SHEET_ID = "1OuJYv9gJ_hjlQH0iiRlIiJieczqrTl_Si_6eep7v-Ls"
+          def tab(name):
+              url = ("https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&headers=1&sheet=%s"
+                     % (SHEET_ID, urllib.parse.quote(name)))
+              txt = urllib.request.urlopen(url, timeout=30).read().decode("utf-8")
+              if txt.lstrip().startswith("<"):
+                  raise SystemExit("Tabelul nu este public")
+              rows = list(csv.reader(io.StringIO(txt)))[1:]
+              return [[(v or "").strip() for v in r] for r in rows]
+          raw = {n: tab(n) for n in ("Setări", "Capitole", "Produse")}
+          with open("data.json", "w", encoding="utf-8") as f:
+              json.dump({"raw": raw}, f, ensure_ascii=False, indent=1)
+          print("Capitole:", len(raw["Capitole"]), "Produse:", len(raw["Produse"]))
+      - name: Salvează dacă s-a schimbat ceva
+        run: |
+          git config user.name "actualizare-meniu"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || (git commit -m "Meniu actualizat din tabel" && git push)
 
