@@ -1,0 +1,256 @@
+{
+ "restaurant": "sheikh",
+ "slogan": "Meniu digital · prețuri în lei, TVA inclus",
+ "nota": "Pentru alergeni și informații suplimentare, întrebați personalul.",
+ "capitole": [
+  {
+   "id": "supe",
+   "name": "Supe",
+   "img": ""
+  },
+  {
+   "id": "gustari-reci",
+   "name": "Gustări reci",
+   "img": ""
+  },
+  {
+   "id": "gustari-calde",
+   "name": "Gustări calde",
+   "img": ""
+  },
+  {
+   "id": "pizza",
+   "name": "Pizza",
+   "img": ""
+  },
+  {
+   "id": "paste",
+   "name": "Paste",
+   "img": ""
+  },
+  {
+   "id": "salate",
+   "name": "Salate",
+   "img": ""
+  },
+  {
+   "id": "desert",
+   "name": "Desert",
+   "img": ""
+  },
+  {
+   "id": "bauturi",
+   "name": "Băuturi",
+   "img": ""
+  }
+ ],
+ "produse": [
+  {
+   "cat": "supe",
+   "name": "Ciorbă de burtă",
+   "desc": "Servită cu smântână, ardei iute și usturoi.",
+   "meta": "400 ml",
+   "price": 24.0,
+   "tag": "Recomandat",
+   "img": ""
+  },
+  {
+   "cat": "supe",
+   "name": "Supă de pui cu tăiței",
+   "desc": "Supă limpede de casă cu legume și tăiței.",
+   "meta": "400 ml",
+   "price": 19.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "supe",
+   "name": "Ciorbă de perișoare",
+   "desc": "Perișoare din carne de porc, legume, borș.",
+   "meta": "400 ml",
+   "price": 21.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "gustari-reci",
+   "name": "Platou rece",
+   "desc": "Mezeluri, brânzeturi, măsline, roșii, castraveți.",
+   "meta": "500 g · 2 pers.",
+   "price": 48.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "gustari-reci",
+   "name": "Salată de vinete",
+   "desc": "Cu ceapă, servită cu pâine prăjită.",
+   "meta": "200 g",
+   "price": 22.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "gustari-reci",
+   "name": "Bruschete cu roșii",
+   "desc": "Pâine prăjită, roșii, usturoi, busuioc.",
+   "meta": "4 buc.",
+   "price": 18.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "gustari-calde",
+   "name": "Aripioare picante",
+   "desc": "Aripioare de pui crocante cu sos barbecue.",
+   "meta": "350 g",
+   "price": 29.0,
+   "tag": "Picant",
+   "img": ""
+  },
+  {
+   "cat": "gustari-calde",
+   "name": "Cașcaval pane",
+   "desc": "Cu sos tartar.",
+   "meta": "250 g",
+   "price": 24.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "gustari-calde",
+   "name": "Cartofi prăjiți cu parmezan",
+   "desc": "Cu usturoi și pătrunjel.",
+   "meta": "250 g",
+   "price": 16.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "pizza",
+   "name": "Margherita",
+   "desc": "Sos de roșii, mozzarella, busuioc proaspăt, ulei de măsline.",
+   "meta": "32 cm · 450 g",
+   "price": 32.0,
+   "tag": "Clasică",
+   "img": ""
+  },
+  {
+   "cat": "pizza",
+   "name": "Prosciutto e Funghi",
+   "desc": "Sos de roșii, mozzarella, șuncă presată, ciuperci.",
+   "meta": "32 cm · 520 g",
+   "price": 38.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "pizza",
+   "name": "Quattro Formaggi",
+   "desc": "Mozzarella, gorgonzola, parmezan, cașcaval afumat.",
+   "meta": "32 cm · 500 g",
+   "price": 41.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "pizza",
+   "name": "Diavola",
+   "desc": "Sos de roșii, mozzarella, salam picant, ardei iute.",
+   "meta": "32 cm · 500 g",
+   "price": 39.0,
+   "tag": "Picantă",
+   "img": ""
+  },
+  {
+   "cat": "pizza",
+   "name": "Pizza Casei",
+   "desc": "Sos de roșii, mozzarella, pui, bacon, porumb, ardei gras.",
+   "meta": "32 cm · 600 g",
+   "price": 44.0,
+   "tag": "Recomandat",
+   "img": ""
+  },
+  {
+   "cat": "paste",
+   "name": "Spaghete Carbonara",
+   "desc": "Guanciale, gălbenuș, pecorino, piper negru.",
+   "meta": "350 g",
+   "price": 36.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "paste",
+   "name": "Penne Arrabbiata",
+   "desc": "Sos de roșii picant cu usturoi și pătrunjel.",
+   "meta": "350 g",
+   "price": 30.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "salate",
+   "name": "Salată Caesar cu pui",
+   "desc": "Salată verde, pui la grill, crutoane, parmezan, dressing.",
+   "meta": "380 g",
+   "price": 34.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "salate",
+   "name": "Salată grecească",
+   "desc": "Roșii, castraveți, ardei, ceapă roșie, măsline, feta.",
+   "meta": "350 g",
+   "price": 28.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "desert",
+   "name": "Tiramisu",
+   "desc": "Mascarpone, pișcoturi însiropate în espresso, cacao.",
+   "meta": "150 g",
+   "price": 22.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "desert",
+   "name": "Papanași",
+   "desc": "Cu smântână și dulceață de afine.",
+   "meta": "250 g",
+   "price": 25.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "bauturi",
+   "name": "Limonadă de casă",
+   "desc": "Lămâie, mentă, miere.",
+   "meta": "400 ml",
+   "price": 15.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "bauturi",
+   "name": "Apă plată / minerală",
+   "desc": "",
+   "meta": "500 ml",
+   "price": 9.0,
+   "tag": "",
+   "img": ""
+  },
+  {
+   "cat": "bauturi",
+   "name": "Espresso",
+   "desc": "",
+   "meta": "40 ml",
+   "price": 9.0,
+   "tag": "",
+   "img": ""
+  }
+ ]
+}
