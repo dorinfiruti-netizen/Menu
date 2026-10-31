@@ -1,1 +1,378 @@
 
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meniu digital</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f0e4; --card:#fffcf5; --ink:#1f2a28; --muted:#6f6a5e;
+  --deep:#0e3b36; --deep2:#0a2c28; --gold:#c9a24e; --gold-d:#9c7a2e; --line:#e4d6b4; --soft:#efe6d2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Jost,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button{font:inherit;color:inherit;cursor:pointer}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.view{display:none;min-height:100vh}
+.view.on{display:block;animation:fade .3s ease}
+@keyframes fade{from{opacity:0}}
+/* model geometric arăbesc (stea în 8 colțuri) */
+.pattern{background-color:var(--deep);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23c9a24e' stroke-opacity='.14' stroke-width='1'%3E%3Cpath d='M28 8l6 14 14 6-14 6-6 14-6-14-14-6 14-6z'/%3E%3Crect x='17' y='17' width='22' height='22' transform='rotate(45 28 28)'/%3E%3Crect x='17' y='17' width='22' height='22'/%3E%3C/g%3E%3C/svg%3E");}
+/* ---------- START ---------- */
+header{padding:38px 22px 34px;text-align:center;color:#f3ead6;position:relative}
+header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14px;
+  background:radial-gradient(circle at 7px 14px,var(--bg) 7px,transparent 7.5px) repeat-x;background-size:14px 14px}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--gold)}
+.orn::before,.orn::after{content:"";height:1px;width:46px;background:linear-gradient(90deg,transparent,var(--gold))}
+.orn::after{transform:scaleX(-1)}
+.logo{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:38px;letter-spacing:.5px;color:var(--gold);margin:10px 0 2px;line-height:1.1}
+.logo span{color:#f3ead6}
+.tagline{color:#d9ceb5;font-size:13px;letter-spacing:2.5px;text-transform:uppercase}
+.search{margin:20px auto 0;max-width:520px;position:relative}
+.search input{width:100%;padding:12px 16px 12px 42px;border:1px solid rgba(201,162,78,.55);border-radius:999px;font:inherit;font-size:15px;background:rgba(255,255,255,.07);color:#f3ead6;outline:none}
+.search input::placeholder{color:#b9ae95}
+.search input:focus{border-color:var(--gold);background:rgba(255,255,255,.12)}
+.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--gold)}
+.sect{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:26px;color:var(--deep);text-align:center;margin:28px 20px 14px;display:flex;align-items:center;justify-content:center;gap:12px}
+.sect::before,.sect::after{content:"✦";font-size:12px;color:var(--gold)}
+.carousel{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 22px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.carousel::-webkit-scrollbar{display:none}
+.chap{flex:none;width:72%;max-width:320px;scroll-snap-align:center;background:var(--card);border:1px solid var(--line);border-radius:999px 999px 18px 18px;padding:10px 10px 0;text-align:center;box-shadow:0 8px 24px rgba(14,59,54,.08)}
+.chap .art{aspect-ratio:4/4.3;border-radius:999px 999px 10px 10px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
+.chap .art svg,.chap .art img{width:100%;height:100%;display:block;object-fit:cover}
+.chap .lbl{padding:14px 10px 18px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.chap .t{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;font-weight:600;color:var(--deep)}
+.chap .n{font-size:12px;color:var(--gold-d);letter-spacing:1.5px;text-transform:uppercase}
+.go{display:none}
+.dots{display:flex;justify-content:center;gap:7px;margin:8px 0 4px}
+.dots i{width:6px;height:6px;transform:rotate(45deg);background:var(--line);transition:.2s}
+.dots i.on{background:var(--gold);width:8px;height:8px}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding:0 22px;max-width:900px;margin:0 auto}
+.chip{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:8px;text-align:left}
+.chip .mini{width:42px;height:46px;border-radius:999px 999px 6px 6px;overflow:hidden;flex:none}
+.chip .mini svg,.chip .mini img{width:100%;height:100%;display:block;object-fit:cover}
+.chip b{font-weight:500;font-size:15px;color:var(--deep)}
+/* ---------- CAPITOL ---------- */
+.bar{position:sticky;top:0;z-index:5;color:#f3ead6;border-bottom:2px solid var(--gold)}
+.bartop{display:flex;align-items:center;gap:10px;padding:14px 14px 6px;max-width:900px;margin:0 auto}
+.back{background:transparent;border:1px solid rgba(201,162,78,.6);color:#f3ead6;border-radius:999px;padding:6px 13px 6px 9px;display:flex;align-items:center;gap:4px;font-size:14px}
+.bartop h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:28px;color:var(--gold);flex:1;text-align:center;margin-right:74px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:8px 14px 14px;max-width:900px;margin:0 auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid rgba(201,162,78,.5);background:transparent;color:#e8dec6;padding:6px 15px;border-radius:999px;font-size:14px}
+.tab.on{background:var(--gold);border-color:var(--gold);color:var(--deep2);font-weight:600}
+main{max-width:900px;margin:0 auto;padding:18px 14px 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.item{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px;text-align:left;width:100%}
+.item:active{transform:scale(.98)}
+.thumb{flex:none;width:92px;height:104px;border-radius:999px 999px 10px 10px;overflow:hidden;background:var(--soft)}
+.thumb img,.thumb svg{width:100%;height:100%;object-fit:cover;display:block}
+.info{display:flex;flex-direction:column;min-width:0;flex:1;padding-top:4px}
+.name{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:20px;line-height:1.15;color:var(--deep)}
+.desc{color:var(--muted);font-size:13px;line-height:1.45;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;padding-top:6px;border-top:1px dashed var(--line)}
+.price{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;color:var(--gold-d);font-size:21px}
+.meta{font-size:12px;color:var(--muted)}
+.badge{display:inline-block;font-family:Jost,sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold-d);padding:1px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
+.nav2{display:flex;justify-content:space-between;gap:10px;margin-top:24px}
+.nav2 button{flex:1;border:1px solid var(--gold);background:transparent;color:var(--deep);border-radius:999px;padding:12px;font-size:14px;font-weight:500}
+.nav2 button:disabled{visibility:hidden}
+.hint{text-align:center;font-size:12px;color:var(--muted);margin-top:10px}
+.empty{text-align:center;color:var(--muted);padding:30px 0}
+/* ---------- DETALIU ---------- */
+.overlay{position:fixed;inset:0;background:rgba(10,44,40,.6);display:none;align-items:flex-end;justify-content:center;z-index:20}
+.overlay.open{display:flex}
+.sheet{position:relative;background:var(--card);width:100%;max-width:500px;border-radius:24px 24px 0 0;max-height:92vh;overflow-y:auto;animation:up .25s ease;padding:16px 16px 0;border-top:3px solid var(--gold)}
+@media(min-width:600px){.overlay{align-items:center}.sheet{border-radius:24px}}
+@keyframes up{from{transform:translateY(40px);opacity:0}}
+.hero{aspect-ratio:1/1;max-height:52vh;margin:0 auto;border-radius:999px 999px 14px 14px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
+.hero img,.hero svg{width:100%;height:100%;object-fit:cover;display:block}
+.body{padding:18px 8px 28px;text-align:center}
+.body h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:30px;font-weight:700;color:var(--deep)}
+.body p{color:var(--muted);line-height:1.6;margin-top:8px;font-size:15px}
+.body .price{font-size:28px;margin-top:12px;display:block}
+.dmeta{margin-top:8px;font-size:12px;color:var(--gold-d);letter-spacing:1.5px;text-transform:uppercase}
+.close{position:absolute;top:24px;right:24px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;z-index:2}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:26px 20px 30px}
+footer::before{content:"✦";display:block;color:var(--gold);margin-bottom:8px}
+</style>
+</head>
+<body>
+
+<!-- PAGINA DE START: capitole -->
+<section class="view" id="v-home">
+  <header class="pattern">
+    <div class="orn">✦</div>
+    <div class="logo">Meniu</div>
+    <div class="tagline"></div>
+    <div class="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Caută un produs…" autocomplete="off">
+    </div>
+  </header>
+  <div id="home-chapters">
+    <div class="sect">Capitole</div>
+    <div class="carousel" id="car"></div>
+    <div class="dots" id="dots"></div>
+    <div class="sect">Toate capitolele</div>
+    <div class="chips" id="chips"></div>
+  </div>
+  <main id="results" hidden></main>
+  <footer>Pentru alergeni și informații suplimentare, întrebați personalul.</footer>
+</section>
+
+<!-- PAGINA UNUI CAPITOL -->
+<section class="view" id="v-cat">
+  <div class="bar pattern">
+    <div class="bartop">
+      <button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 18-6-6 6-6"/></svg>Meniu</button>
+      <h1 id="cat-title"></h1>
+    </div>
+    <div class="tabs" id="tabs"></div>
+  </div>
+  <main>
+    <div class="grid" id="list"></div>
+    <div class="nav2"><button id="prev"></button><button id="next"></button></div>
+    <div class="hint">Glisează stânga / dreapta pentru capitolul următor</div>
+  </main>
+</section>
+
+<div class="overlay" id="ov">
+  <div class="sheet" role="dialog" aria-modal="true">
+    <button class="close" id="x" aria-label="Închide">×</button>
+    <div class="hero" id="d-img"></div>
+    <div class="body">
+      <h3 id="d-name"></h3>
+      <p id="d-desc"></p>
+      <div class="dmeta" id="d-meta"></div>
+      <span class="price" id="d-price"></span>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============ SURSA DATELOR: tabelul Google „Meniu restaurant” ============ */
+const SHEET_ID = "1OuJYv9gJ_hjlQH0iiRlIiJieczqrTl_Si_6eep7v-Ls";
+const CACHE = "meniu-cache-v1";
+let DATA = {}, CAPITOLE = [], PRODUSE = [];
+
+function parseCSV(t){
+  const rows = []; let row = [], f = "", q = false;
+  for(let i = 0; i < t.length; i++){
+    const c = t[i];
+    if(q){ if(c === '"'){ if(t[i+1] === '"'){ f += '"'; i++; } else q = false; } else f += c; }
+    else if(c === '"') q = true;
+    else if(c === ",") { row.push(f); f = ""; }
+    else if(c === "\n" || c === "\r"){ if(c === "\r" && t[i+1] === "\n") i++; row.push(f); rows.push(row); row = []; f = ""; }
+    else f += c;
+  }
+  if(f !== "" || row.length){ row.push(f); rows.push(row); }
+  return rows;
+}
+let cbN = 0;
+function readTab(name){
+  // JSONP: funcționează fără restricții CORS
+  return new Promise((resolve, reject) => {
+    const cb = "__sheetCb" + (++cbN) + "_" + Date.now();
+    const sc = document.createElement("script");
+    const done = () => { clearTimeout(timer); try { delete window[cb]; } catch(e){ window[cb] = undefined; } sc.remove(); };
+    const timer = setTimeout(() => { done(); reject(new Error("timeout")); }, 15000);
+    window[cb] = res => {
+      done();
+      if(!res || res.status === "error" || !res.table){ reject(new Error("Tabelul nu este public")); return; }
+      resolve(res.table.rows.map(r => (r.c||[]).map(c => c ? String(c.f ?? c.v ?? "").trim() : "")));
+    };
+    sc.onerror = () => { done(); reject(new Error("Tabelul nu poate fi citit")); };
+    sc.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=responseHandler:${cb}&headers=1&sheet=${encodeURIComponent(name)}&t=${Date.now()}`;
+    document.head.appendChild(sc);
+  });
+}
+function imgUrl(v){
+  v = (v||"").trim(); if(!v) return "";
+  const m = v.match(/\/d\/([\w-]{20,})/) || v.match(/[?&]id=([\w-]{20,})/);
+  if(m) return `https://drive.google.com/thumbnail?id=${m[1]}&sz=w1000`;
+  return /^https?:\/\//.test(v) ? v : "";
+}
+function money(v){
+  let s = String(v||"").replace(/lei|ron|\s/gi, "");
+  if(s.includes(",")) s = s.replace(/\./g, "").replace(",", ".");
+  const n = parseFloat(s); return isNaN(n) ? null : Math.round(n*100)/100;
+}
+const shown = v => (v||"").trim().toUpperCase() !== "NU";
+const slugify = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"") || "capitol";
+
+async function loadSheet(){
+  const [set, caps, prods] = await Promise.all([readTab("Setări"), readTab("Capitole"), readTab("Produse")]);
+  const S = {}; set.forEach(r => S[(r[0]||"").toLowerCase()] = r[1]||"");
+  const ids = {}, used = {}, capitole = [];
+  caps.forEach(r => {
+    const name = r[0]; if(!name || !shown(r[2])) return;
+    let id = slugify(name), n = id, i = 2; while(used[n]) n = id + "-" + (i++); used[n] = 1;
+    ids[name.toLowerCase()] = n; capitole.push({id:n, name, img:imgUrl(r[1])});
+  });
+  const produse = prods.filter(r => r[1] && shown(r[7]) && ids[(r[0]||"").toLowerCase()]).map(r => ({
+    cat: ids[r[0].toLowerCase()], name:r[1], desc:r[2], meta:r[3], price:money(r[4]), tag:r[5], img:imgUrl(r[6])
+  }));
+  return {restaurant:S["nume restaurant"]||"", slogan:S["text sub nume"]||"", nota:S["notă final"]||S["nota final"]||"", capitole, produse};
+}
+function useData(d){ DATA = d; CAPITOLE = d.capitole||[]; PRODUSE = d.produse||[]; applyHeader(); buildHome(); route(); if($("q").value) search(); }
+
+/* Ilustrații implicite pe capitol (se înlocuiesc cu poze reale) */
+const BG = '<rect x="-20" y="-20" width="140" height="115" fill="#efe6d2"/>';
+const ART = {
+  "supe":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<ellipse cx="50" cy="44" rx="34" ry="12" fill="#fff"/><path d="M18 44a32 22 0 0 0 64 0z" fill="#fff" stroke="#e5d5c4"/><ellipse cx="50" cy="44" rx="28" ry="8" fill="#e8913a"/><circle cx="42" cy="43" r="2.5" fill="#fff3d6"/><circle cx="56" cy="45" r="2" fill="#3f7d3a"/><path d="M40 28q4-6 0-12M50 28q4-6 0-12M60 28q4-6 0-12" stroke="#c9b8a6" stroke-width="2" fill="none"/></svg>`,
+  "gustari-reci":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<rect x="14" y="22" width="72" height="38" rx="8" fill="#a8774f"/><circle cx="32" cy="38" r="9" fill="#d9605a"/><circle cx="32" cy="38" r="5" fill="#ef9c95"/><path d="M48 30h16l-8 14z" fill="#f4cf5d"/><circle cx="72" cy="36" r="4" fill="#3d3a2f"/><circle cx="66" cy="48" r="4" fill="#3d3a2f"/><rect x="44" y="46" width="14" height="7" rx="2" fill="#fff3d6"/></svg>`,
+  "gustari-calde":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<ellipse cx="50" cy="48" rx="36" ry="13" fill="#fff"/><g fill="#d98a34"><rect x="30" y="26" width="6" height="24" rx="2" transform="rotate(-12 33 38)"/><rect x="40" y="22" width="6" height="28" rx="2"/><rect x="50" y="24" width="6" height="26" rx="2" transform="rotate(10 53 37)"/><rect x="60" y="28" width="6" height="22" rx="2" transform="rotate(18 63 39)"/></g><circle cx="70" cy="50" r="7" fill="#0e3b36"/></svg>`,
+  "pizza":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<circle cx="50" cy="38" r="30" fill="#e7b46a"/><circle cx="50" cy="38" r="25" fill="#b5452f"/><g fill="#fff4dc"><circle cx="40" cy="30" r="5.5"/><circle cx="58" cy="28" r="5"/><circle cx="56" cy="46" r="6"/><circle cx="38" cy="47" r="4"/></g><g fill="#3f7d3a"><ellipse cx="48" cy="38" rx="3.5" ry="2" transform="rotate(30 48 38)"/><ellipse cx="64" cy="40" rx="3.5" ry="2"/></g></svg>`,
+  "paste":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<ellipse cx="50" cy="44" rx="36" ry="20" fill="#fff"/><ellipse cx="50" cy="41" rx="24" ry="12" fill="#f1c76b"/><g fill="none" stroke="#e0a943" stroke-width="2.4"><path d="M30 41q10-9 20 0t20 0"/><path d="M33 47q8-7 17 0t17 0"/><path d="M35 35q8-6 15 0t15 0"/></g><circle cx="50" cy="39" r="4.5" fill="#0e3b36"/></svg>`,
+  "salate":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<path d="M14 38h72a36 26 0 0 1-72 0z" fill="#fff"/><g fill="#6aa84f"><circle cx="34" cy="35" r="10"/><circle cx="52" cy="31" r="11"/><circle cx="68" cy="36" r="9"/></g><circle cx="44" cy="37" r="5" fill="#b5452f"/><circle cx="62" cy="39" r="4" fill="#b5452f"/><rect x="52" y="35" width="7" height="7" fill="#fffbe8"/></svg>`,
+  "desert":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<path d="M28 60h44l-5-28H33z" fill="#7a4a2c"/><rect x="30" y="44" width="40" height="5" fill="#f3e2c3"/><rect x="32" y="35" width="36" height="5" fill="#f3e2c3"/><ellipse cx="50" cy="31" rx="18" ry="4.5" fill="#5a3520"/><circle cx="50" cy="25" r="5" fill="#0e3b36"/></svg>`,
+  "bauturi":`<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<path d="M36 14h28l-4 50H40z" fill="#fff" stroke="#e5d5c4" stroke-width="2"/><path d="M38 28h24l-3 34H41z" fill="#f5d36a"/><circle cx="60" cy="18" r="8" fill="#f2c94c" stroke="#e2b23a" stroke-width="2"/><path d="M56 6l-6 22" stroke="#0e3b36" stroke-width="3"/></svg>`
+};
+const PLATE = `<svg viewBox="0 0 100 75" preserveAspectRatio="xMidYMid slice">${BG}<ellipse cx="50" cy="42" rx="34" ry="20" fill="#fff" stroke="#e5d5c4"/><ellipse cx="50" cy="42" rx="20" ry="11" fill="#f0d9c8"/></svg>`;
+function applyHeader(){
+  document.title = DATA.restaurant ? DATA.restaurant + " · Meniu" : "Meniu";
+  const w = (DATA.restaurant||"Meniu").trim().split(/\s+/), last = w.pop();
+  document.querySelector(".logo").innerHTML = (w.length ? E(w.join(" "))+" " : "") + "<span>"+E(last)+"</span>";
+  document.querySelector(".tagline").textContent = DATA.slogan || "";
+  document.querySelector("footer").textContent = DATA.nota || "";
+}
+
+const $ = id => document.getElementById(id);
+const E = t => String(t??"").replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+const capById = id => CAPITOLE.find(c=>c.id===id);
+const prodOf = id => PRODUSE.filter(p=>p.cat===id);
+const cover = id => { const c = capById(id); return c && c.img ? `<img src="${c.img}" alt="">` : (ART[id] || PLATE); };
+const pic = p => p.img ? `<img src="${p.img}" alt="">` : (ART[p.cat] || PLATE);
+const lei = n => n===null||n===undefined ? "" : (Number.isInteger(n)? n : n.toFixed(2).replace(".",",")) + " lei";
+const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+const prodWord = n => n===1 ? "1 produs" : n+" produse";
+let current = null;
+
+function itemHTML(p){
+  const i = PRODUSE.indexOf(p);
+  return `<button class="item" data-i="${i}">
+    <div class="thumb">${pic(p)}</div>
+    <div class="info">
+      <div class="name">${E(p.name)}${p.tag?`<span class="badge">${E(p.tag)}</span>`:""}</div>
+      <div class="desc">${E(p.desc)}</div>
+      <div class="row"><span class="meta">${E(p.meta)}</span><span class="price">${lei(p.price)}</span></div>
+    </div></button>`;
+}
+
+/* ---- START ---- */
+function buildHome(){
+  $("car").innerHTML = CAPITOLE.map(c=>`
+    <button class="chap" data-c="${c.id}">
+      <div class="art">${cover(c.id)}</div>
+      <div class="lbl"><div><div class="t">${E(c.name)}</div><div class="n">${prodWord(prodOf(c.id).length)}</div></div>
+      <span class="go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></span></div>
+    </button>`).join("");
+  $("dots").innerHTML = CAPITOLE.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("");
+  $("chips").innerHTML = CAPITOLE.map(c=>`<button class="chip" data-c="${c.id}"><span class="mini">${cover(c.id)}</span><b>${E(c.name)}</b></button>`).join("");
+}
+$("car").addEventListener("scroll",()=>{
+  const car=$("car"), cards=car.children; if(!cards.length) return;
+  const mid = car.scrollLeft + car.clientWidth/2;
+  let best=0, bd=1e9;
+  [...cards].forEach((c,i)=>{const d=Math.abs(c.offsetLeft+c.offsetWidth/2-mid); if(d<bd){bd=d;best=i;}});
+  [...$("dots").children].forEach((d,i)=>d.classList.toggle("on",i===best));
+},{passive:true});
+
+function search(){
+  const q = norm($("q").value.trim());
+  $("home-chapters").hidden = !!q;
+  $("results").hidden = !q;
+  if(!q) return;
+  const hits = PRODUSE.filter(p=>norm(p.name+" "+p.desc).includes(q));
+  $("results").innerHTML = hits.length ? `<div class="grid">${hits.map(itemHTML).join("")}</div>` : `<div class="empty">Niciun produs găsit.</div>`;
+}
+
+/* ---- CAPITOL ---- */
+function showCat(id){
+  const c = capById(id); if(!c) return showHome();
+  current = id;
+  const idx = CAPITOLE.indexOf(c);
+  $("cat-title").textContent = c.name;
+  $("tabs").innerHTML = CAPITOLE.map(x=>`<button class="tab ${x.id===id?"on":""}" data-c="${x.id}">${E(x.name)}</button>`).join("");
+  const list = prodOf(id);
+  $("list").innerHTML = list.length ? list.map(itemHTML).join("") : `<div class="empty">În curând.</div>`;
+  const pv = CAPITOLE[idx-1], nx = CAPITOLE[idx+1];
+  $("prev").disabled = !pv; $("prev").textContent = pv ? "← "+pv.name : "";
+  $("next").disabled = !nx; $("next").textContent = nx ? nx.name+" →" : "";
+  $("prev").dataset.c = pv?pv.id:""; $("next").dataset.c = nx?nx.id:"";
+  setView("v-cat");
+  const on = $("tabs").querySelector(".on"); if(on) on.scrollIntoView({inline:"center",block:"nearest"});
+  window.scrollTo(0,0);
+}
+function showHome(){ current=null; setView("v-home"); }
+function setView(v){ document.querySelectorAll(".view").forEach(s=>s.classList.toggle("on",s.id===v)); }
+
+/* Navigare prin #capitol (butonul „înapoi” al telefonului funcționează) */
+function go(id){ if(location.hash !== "#"+id) location.hash = id; else route(); }
+function route(){ const h = location.hash.slice(1); h && capById(h) ? showCat(h) : showHome(); }
+window.addEventListener("hashchange", route);
+
+document.addEventListener("click", e=>{
+  const c = e.target.closest("[data-c]");
+  if(c && c.dataset.c){ go(c.dataset.c); return; }
+  const it = e.target.closest(".item");
+  if(it) openItem(+it.dataset.i);
+});
+$("back").onclick = ()=>{ location.hash = "meniu"; };
+$("q").oninput = search;
+
+/* Glisare stânga/dreapta pe pagina capitolului */
+let sx=0, sy=0;
+$("v-cat").addEventListener("touchstart",e=>{sx=e.touches[0].clientX; sy=e.touches[0].clientY;},{passive:true});
+$("v-cat").addEventListener("touchend",e=>{
+  if(e.target.closest(".tabs")) return;
+  const dx=e.changedTouches[0].clientX-sx, dy=e.changedTouches[0].clientY-sy;
+  if(Math.abs(dx)>70 && Math.abs(dx)>Math.abs(dy)*1.5){
+    const idx = CAPITOLE.findIndex(c=>c.id===current);
+    const t = CAPITOLE[idx + (dx<0?1:-1)];
+    if(t) go(t.id);
+  }
+},{passive:true});
+
+/* ---- DETALIU PRODUS ---- */
+function openItem(i){
+  const p = PRODUSE[i];
+  $("d-img").innerHTML = pic(p);
+  $("d-name").textContent = p.name;
+  $("d-desc").textContent = p.desc || "";
+  $("d-meta").textContent = p.meta || "";
+  $("d-price").textContent = lei(p.price);
+  $("ov").classList.add("open");
+}
+const closeItem = ()=>$("ov").classList.remove("open");
+$("x").onclick = closeItem;
+$("ov").onclick = e=>{ if(e.target.id==="ov") closeItem(); };
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeItem(); });
+
+(async function start(){
+  setView("v-home");
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(CACHE)); } catch(e){}
+  if(cached) useData(cached);
+  else $("car").innerHTML = `<div class="empty" style="width:100%">Se încarcă meniul…</div>`;
+  const save = d => { try { localStorage.setItem(CACHE, JSON.stringify(d)); } catch(e){} };
+  let ok = !!cached;
+  // 1) data.json de pe același site (actualizat automat din tabel) — merge în orice browser, inclusiv Samsung Internet
+  try {
+    const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+    if(r.ok){ const d = await r.json(); if(d && d.capitole && d.capitole.length){ useData(d); save(d); ok = true; } }
+  } catch(err){ console.error(err); }
+  // 2) apoi, dacă browserul permite, citim direct tabelul Google (cele mai noi modificări)
+  try {
+    const d = await loadSheet();
+    if(d.capitole.length){ useData(d); save(d); ok = true; }
+  } catch(err){ console.error(err); }
+  if(!ok) $("car").innerHTML = `<div class="empty" style="width:100%">Meniul nu s-a putut încărca. Reîncărcați pagina în câteva momente.</div>`;
+})();
+</script>
+</body>
+</html>
