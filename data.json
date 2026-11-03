@@ -98,15 +98,21 @@
     "",
     "DA",
     "Drinks"
+   ],
+   [
+    "SUPE / CIORBE",
+    "",
+    "DA",
+    ""
    ]
   ],
   "Produse": [
    [
-    "Supe",
+    "SUPE",
     "Ciorbă de burtă",
-    "Servită cu smântână, ardei iute și usturoi.",
-    "400 ml",
-    "24.00",
+    "",
+    "400ML",
+    "22.00",
     "Recomandat",
     "https://drive.google.com/file/d/1SVOpuf81Sy4WgDEejQkM57xQ8i2TZOX5/view?usp=drivesdk",
     "DA",
@@ -114,11 +120,11 @@
     "Served with sour cream, hot pepper and garlic."
    ],
    [
-    "Supe",
-    "Supă de pui cu tăiței",
-    "Supă limpede de casă cu legume și tăiței.",
-    "400 ml",
-    "19.00",
+    "SUPE",
+    "Supă cremă de linte",
+    "linte roșie, crutoane, lămâie - 350ML",
+    "350ml",
+    "18.00",
     "tare tau",
     "https://drive.google.com/file/d/1ehGBHoNMRt8YkF0J-LXuWuNnMAblcUX1/view?usp=drivesdk",
     "DA",
@@ -126,11 +132,11 @@
     "Clear homemade soup with vegetables and noodles."
    ],
    [
-    "Supe",
-    "Ciorbă de perișoare",
-    "Perișoare din carne de porc, legume, borș.",
-    "400 ml",
-    "21.00",
+    "SUPE / CIORBE",
+    "Ciorbă de legume",
+    "cartofi, morcovi, țelină, roșii, borș - 350ML",
+    "350ml",
+    "16.00",
     "",
     "https://drive.google.com/file/d/1gKhuWJMBWBo9Azgx-3kYcy0lq8eOUP85/view?usp=drivesdk",
     "DA",
@@ -138,11 +144,11 @@
     "Pork meatballs, vegetables, sour broth."
    ],
    [
-    "Gustări reci",
-    "Platou rece",
-    "Mezeluri, brânzeturi, măsline, roșii, castraveți.",
-    "500 g · 2 pers.",
-    "48.00",
+    "SUPE / CIORBE",
+    "Ciorbă de pui",
+    "piept de pui, morcov, țelină, roșii, cartofi, borș - 350ML",
+    "350ml",
+    "18.00",
     "",
     "",
     "DA",
@@ -150,11 +156,11 @@
     "Cold cuts, cheeses, olives, tomatoes, cucumbers."
    ],
    [
-    "Gustări reci",
-    "Salată de vinete",
-    "Cu ceapă, servită cu pâine prăjită.",
-    "200 g",
-    "22.00",
+    "SUPE / CIORBE",
+    "Ciorbă de văcuță",
+    "pulpă văcuță, morcov, țelină, roșii, cartofi, borș - 350ML",
+    "350ml",
+    "20.00",
     "",
     "",
     "DA",
@@ -162,10 +168,10 @@
     "With onion, served with toasted bread."
    ],
    [
-    "Gustări reci",
-    "Bruschete cu roșii",
-    "Pâine prăjită, roșii, usturoi, busuioc.",
-    "4 buc.",
+    "",
+    "",
+    "",
+    "",
     "18.00",
     "",
     "",
@@ -174,10 +180,10 @@
     "Toasted bread, tomatoes, garlic, basil."
    ],
    [
-    "Gustări calde",
-    "Aripioare picante",
-    "Aripioare de pui crocante cu sos barbecue.",
-    "350 g",
+    "",
+    "",
+    "",
+    "",
     "29.00",
     "Picant",
     "",
@@ -186,10 +192,10 @@
     "Crispy chicken wings with barbecue sauce."
    ],
    [
-    "Gustări calde",
-    "Cașcaval pane",
-    "Cu sos tartar.",
-    "250 g",
+    "",
+    "",
+    "",
+    "",
     "24.00",
     "",
     "",
@@ -198,10 +204,10 @@
     "With tartar sauce."
    ],
    [
-    "Gustări calde",
-    "Cartofi prăjiți cu parmezan",
-    "Cu usturoi și pătrunjel.",
-    "250 g",
+    "",
+    "",
+    "",
+    "",
     "16.00",
     "",
     "",
@@ -210,10 +216,10 @@
     "With garlic and parsley."
    ],
    [
-    "Pizza",
-    "Margherita",
-    "Sos de roșii, mozzarella, busuioc proaspăt, ulei de măsline.",
-    "32 cm · 450 g",
+    "",
+    "",
+    "",
+    "",
     "32.00",
     "Clasică",
     "",
@@ -222,10 +228,10 @@
     "Tomato sauce, mozzarella, fresh basil, olive oil."
    ],
    [
-    "Pizza",
-    "Prosciutto e Funghi",
-    "Sos de roșii, mozzarella, șuncă presată, ciuperci.",
-    "32 cm · 520 g",
+    "",
+    "",
+    "",
+    "",
     "38.00",
     "",
     "",
@@ -234,10 +240,10 @@
     "Tomato sauce, mozzarella, ham, mushrooms."
    ],
    [
-    "Pizza",
-    "Quattro Formaggi",
-    "Mozzarella, gorgonzola, parmezan, cașcaval afumat.",
-    "32 cm · 500 g",
+    "",
+    "",
+    "",
+    "",
     "41.00",
     "",
     "",
@@ -246,10 +252,10 @@
     "Mozzarella, gorgonzola, parmesan, smoked cheese."
    ],
    [
-    "Pizza",
-    "Diavola",
-    "Sos de roșii, mozzarella, salam picant, ardei iute.",
-    "32 cm · 500 g",
+    "",
+    "",
+    "",
+    "",
     "39.00",
     "Picantă",
     "",
@@ -258,10 +264,10 @@
     "Tomato sauce, mozzarella, spicy salami, hot pepper."
    ],
    [
-    "Pizza",
-    "Pizza Casei",
-    "Sos de roșii, mozzarella, pui, bacon, porumb, ardei gras.",
-    "32 cm · 600 g",
+    "",
+    "",
+    "",
+    "",
     "44.00",
     "Recomandat",
     "",
@@ -270,10 +276,10 @@
     "Tomato sauce, mozzarella, chicken, bacon, sweetcorn, bell pepper."
    ],
    [
-    "Paste",
-    "Spaghete Carbonara",
-    "Guanciale, gălbenuș, pecorino, piper negru.",
-    "350 g",
+    "",
+    "",
+    "",
+    "",
     "36.00",
     "",
     "",
@@ -282,10 +288,10 @@
     "Guanciale, egg yolk, pecorino, black pepper."
    ],
    [
-    "Paste",
-    "Penne Arrabbiata",
-    "Sos de roșii picant cu usturoi și pătrunjel.",
-    "350 g",
+    "",
+    "",
+    "",
+    "",
     "30.00",
     "",
     "",
@@ -294,10 +300,10 @@
     "Spicy tomato sauce with garlic and parsley."
    ],
    [
-    "Salate",
-    "Salată Caesar cu pui",
-    "Salată verde, pui la grill, crutoane, parmezan, dressing.",
-    "380 g",
+    "",
+    "",
+    "",
+    "",
     "34.00",
     "",
     "",
@@ -306,10 +312,10 @@
     "Lettuce, grilled chicken, croutons, parmesan, dressing."
    ],
    [
-    "Salate",
-    "Salată grecească",
-    "Roșii, castraveți, ardei, ceapă roșie, măsline, feta.",
-    "350 g",
+    "",
+    "",
+    "",
+    "",
     "28.00",
     "",
     "",
@@ -318,10 +324,10 @@
     "Tomatoes, cucumbers, peppers, red onion, olives, feta."
    ],
    [
-    "Desert",
-    "Tiramisu",
-    "Mascarpone, pișcoturi însiropate în espresso, cacao.",
-    "150 g",
+    "",
+    "",
+    "",
+    "",
     "22.00",
     "",
     "",
@@ -330,10 +336,10 @@
     "Mascarpone, espresso-soaked ladyfingers, cocoa."
    ],
    [
-    "Desert",
-    "Papanași",
-    "Cu smântână și dulceață de afine.",
-    "250 g",
+    "",
+    "",
+    "",
+    "",
     "25.00",
     "",
     "",
@@ -342,10 +348,10 @@
     "With sour cream and blueberry jam."
    ],
    [
-    "Băuturi",
-    "Limonadă de casă",
-    "Lămâie, mentă, miere.",
-    "400 ml",
+    "",
+    "",
+    "",
+    "",
     "15.00",
     "",
     "",
@@ -354,10 +360,10 @@
     "Lemon, mint, honey."
    ],
    [
-    "Băuturi",
-    "Apă plată / minerală",
     "",
-    "500 ml",
+    "",
+    "",
+    "",
     "9.00",
     "",
     "",
@@ -366,10 +372,10 @@
     ""
    ],
    [
-    "Băuturi",
-    "Espresso",
     "",
-    "40 ml",
+    "",
+    "",
+    "",
     "9.00",
     "",
     "",
@@ -378,8 +384,8 @@
     ""
    ],
    [
-    "supe",
-    "ciorba de barlad",
+    "",
+    "",
     "",
     "",
     "",
