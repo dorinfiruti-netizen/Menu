@@ -52,10 +52,10 @@
   ],
   "Capitole": [
    [
-    "Supe",
+    "Supe / Ciorbe",
     "",
     "DA",
-    "Soups"
+    "soups / broths"
    ],
    [
     "Gustări reci",
@@ -70,7 +70,7 @@
     "Hot starters"
    ],
    [
-    "Pizza",
+    "Fel principal",
     "",
     "DA",
     "Pizza"
@@ -100,10 +100,10 @@
     "Drinks"
    ],
    [
-    "SUPE / CIORBE",
+    "Fel principal",
     "",
     "DA",
-    ""
+    "Fel principal"
    ]
   ],
   "Produse": [
@@ -122,8 +122,8 @@
    [
     "SUPE",
     "Supă cremă de linte",
-    "linte roșie, crutoane, lămâie - 350ML",
-    "350ml",
+    "linte roșie, crutoane, lămâie - 400ML",
+    "400ML",
     "18.00",
     "tare tau",
     "https://drive.google.com/file/d/1ehGBHoNMRt8YkF0J-LXuWuNnMAblcUX1/view?usp=drivesdk",
@@ -132,10 +132,10 @@
     "Clear homemade soup with vegetables and noodles."
    ],
    [
-    "SUPE / CIORBE",
+    "SUPE",
     "Ciorbă de legume",
-    "cartofi, morcovi, țelină, roșii, borș - 350ML",
-    "350ml",
+    "cartofi, morcovi, țelină, roșii, borș - 400ML",
+    "400ml",
     "16.00",
     "",
     "https://drive.google.com/file/d/1gKhuWJMBWBo9Azgx-3kYcy0lq8eOUP85/view?usp=drivesdk",
@@ -144,10 +144,10 @@
     "Pork meatballs, vegetables, sour broth."
    ],
    [
-    "SUPE / CIORBE",
+    "SUPE",
     "Ciorbă de pui",
-    "piept de pui, morcov, țelină, roșii, cartofi, borș - 350ML",
-    "350ml",
+    "piept de pui, morcov, țelină, roșii, cartofi, borș - 400ML",
+    "400ml",
     "18.00",
     "",
     "",
@@ -156,10 +156,10 @@
     "Cold cuts, cheeses, olives, tomatoes, cucumbers."
    ],
    [
-    "SUPE / CIORBE",
+    "SUPE",
     "Ciorbă de văcuță",
-    "pulpă văcuță, morcov, țelină, roșii, cartofi, borș - 350ML",
-    "350ml",
+    "pulpă văcuță, morcov, țelină, roșii, cartofi, borș - 400ML",
+    "400ml",
     "20.00",
     "",
     "",
@@ -168,11 +168,11 @@
     "With onion, served with toasted bread."
    ],
    [
-    "",
-    "",
-    "",
-    "",
-    "18.00",
+    "Gustări reci",
+    "Hummus clasic",
+    "năut, tahina, lămâie, ulei de măsline, condimente",
+    "200GR",
+    "20.00",
     "",
     "",
     "DA",
@@ -180,9 +180,9 @@
     "Toasted bread, tomatoes, garlic, basil."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Hummus trufe",
+    "năut, tahina, lămâie, ulei de măsline, trufe, condimente",
     "",
     "29.00",
     "Picant",
@@ -192,9 +192,9 @@
     "Crispy chicken wings with barbecue sauce."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Hummus Beiruti ( picant )",
+    "năut, tahina, condimente, usturoi, pătrunjel, pastă de ardei iute, ceapă lămâie, ulei de măsline, roșii",
     "",
     "24.00",
     "",
@@ -204,9 +204,9 @@
     "With tartar sauce."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Hummus carne și snubar",
+    "năut, tahina, lămâie, ulei de măsline, condimente, carne de vită, muguri de pin",
     "",
     "16.00",
     "",
@@ -216,9 +216,9 @@
     "With garlic and parsley."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Hummus snubar",
+    "năut, tahina, lămâie, ulei de măsline, condimente, muguri de pin",
     "",
     "32.00",
     "Clasică",
@@ -228,9 +228,9 @@
     "Tomato sauce, mozzarella, fresh basil, olive oil."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Hummus carne",
+    "năut, tahina, lămâie, ulei de măsline, condimente, carne de vită",
     "",
     "38.00",
     "",
@@ -240,9 +240,9 @@
     "Tomato sauce, mozzarella, ham, mushrooms."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Moutabal",
+    "vinete, tahina, boabe de rodie, usturoi, iaurt, ulei de măsline, condimente",
     "",
     "41.00",
     "",
@@ -252,9 +252,9 @@
     "Mozzarella, gorgonzola, parmesan, smoked cheese."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Babaganoush",
+    "vinete, ardei gras, sos de rodie, ceapă, pătrunjel, roșii",
     "",
     "39.00",
     "Picantă",
@@ -264,9 +264,9 @@
     "Tomato sauce, mozzarella, spicy salami, hot pepper."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Labneh",
+    "cremă de iaurt, ulei de măsline",
     "",
     "44.00",
     "Recomandat",
@@ -276,9 +276,9 @@
     "Tomato sauce, mozzarella, chicken, bacon, sweetcorn, bell pepper."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Labneh cu trufe",
+    "cremă de iaurt, trufe , ulei de măsline",
     "",
     "36.00",
     "",
@@ -288,9 +288,9 @@
     "Guanciale, egg yolk, pecorino, black pepper."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări reci",
+    "Labne mentă & usturoi",
+    "cremă de iaurt, mentă, usturoi, ulei de măsline",
     "",
     "30.00",
     "",
@@ -301,8 +301,8 @@
    ],
    [
     "",
-    "",
-    "",
+    "Platou mixt",
+    "hummus, babaganoush, moutabal, labneh",
     "",
     "34.00",
     "",
@@ -324,9 +324,9 @@
     "Tomatoes, cucumbers, peppers, red onion, olives, feta."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Falafel",
+    "chiftele de năut, susan, sos tahina, castraveți murați, roșii - 4 BUC",
     "",
     "22.00",
     "",
@@ -336,9 +336,9 @@
     "Mascarpone, espresso-soaked ladyfingers, cocoa."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Ficăței de pui în sos de lămâie",
+    "ficăței de pui, condimente, zeamă de lămâie",
     "",
     "25.00",
     "",
@@ -348,9 +348,9 @@
     "With sour cream and blueberry jam."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Ficăței de pui în sos de rodie",
+    "ficăței de pui, condimente, sos de rodie",
     "",
     "15.00",
     "",
@@ -360,9 +360,9 @@
     "Lemon, mint, honey."
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Sharhat de pui",
+    "piept de pui, mentă, lămâie, usturoi, condimente",
     "",
     "9.00",
     "",
@@ -372,9 +372,9 @@
     ""
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Sharhat de vită",
+    "mușchi de vită, mentă, lămâie, usturoi, condimente",
     "",
     "9.00",
     "",
@@ -384,15 +384,99 @@
     ""
    ],
    [
-    "",
-    "",
-    "",
+    "Gustări calde",
+    "Crochete de pui",
+    "piept de pui, ou, făină, pesmet, condimente, lămâie, usturoi",
     "",
     "",
     "",
     "",
     "",
     "Bârlad-style sour soup",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "Piept de pui El Sheikh",
+    "piept de pui, ciuperci, smântână, vin, gran cuccina, usturoi",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "Ras Asfour de pui",
+    "piept de pui, ceapă, usturoi, sos de rodie, condimente",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "Ras Asfour de vită",
+    "mușchi de vită, ceapă, sos de rodie, condimente",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gustări calde",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Fel principal",
+    "Shawarma pui",
+    "piept de pui, maioneză cu usturoi, salată crudități, cartofi proaspeți prăjiți, condimente",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     ""
    ]
   ]
