@@ -55,25 +55,25 @@
     "SUPE / CIORBE",
     "",
     "DA",
-    "soups / broths"
+    "SOUPS"
    ],
    [
     "GUSTĂRI RECI",
     "",
     "DA",
-    "Cold starters"
+    "COLD STARTERS"
    ],
    [
     "GUSTĂRI CALDE",
     "",
     "DA",
-    "Hot starters"
+    "HOT STARTERS"
    ],
    [
     "FEL PRINCIPAL",
     "",
     "DA",
-    "MAIN COURSE"
+    "MAIN COURSES"
    ],
    [
     "GRĂTAR",
@@ -85,7 +85,7 @@
     "DIN MARE",
     "",
     "NU",
-    "DIN MARE"
+    "SEAFOOD"
    ],
    [
     "GARNITURI",
@@ -97,7 +97,7 @@
     "SALATE",
     "",
     "DA",
-    "SALATS"
+    "SALADS"
    ],
    [
     "PÂINE",
@@ -115,7 +115,7 @@
     "DESERT",
     "",
     "DA",
-    "DESERT"
+    "DESSERTS"
    ],
    [
     "SCHNITZEL",
@@ -134,14 +134,14 @@
    [
     "SUPE / CIORBE",
     "Ciorbă de burtă",
-    "caren burta vita, morcovi, ceapă, telina, dafin, piper, sare, smântână 32%, ouă, usturoi, gogoșari murați, oțet,",
+    "carne burta vita, morcovi, ceapă, telina, dafin, piper, sare, smântână 32%, ouă, usturoi, gogoșari murați, oțet,",
     "400ML",
     "23.90",
     "Recomandat",
     "https://drive.google.com/file/d/1tbhHHvbBvHEfaDBODR0nZgN1f-eRvQ1J/view?usp=drive_link",
     "DA",
     "Tripe soup",
-    "Served with sour cream, hot pepper and garlic."
+    "Beef tripe, carrots, onion, celery, bay leaf, pepper, salt, sour cream (32%), eggs, garlic, pickled bell peppers, vinegar"
    ],
    [
     "SUPE / CIORBE",
@@ -149,11 +149,11 @@
     "linte roșie, crutoane, lămâie - 400ML",
     "400ML",
     "17.90",
-    "tare tau",
+    "post",
     "https://drive.google.com/file/d/1NgPA1jFASg23R_BjNBXjegtwY_Riiy61/view?usp=drive_link",
     "DA",
-    "Chicken noodle soup",
-    "Clear homemade soup with vegetables and noodles."
+    "Red lentil cream soup",
+    "Red lentils, croutons, lemon"
    ],
    [
     "SUPE / CIORBE",
@@ -164,8 +164,8 @@
     "",
     "https://drive.google.com/file/d/1DBb4D1PnaWp4IpGccHa_L1EzppFTk-Ss/view?usp=sharing",
     "DA",
-    "Meatball soup",
-    "Pork meatballs, vegetables, sour broth."
+    "Vegetable sour soup",
+    "Potatoes, carrots, celery, tomatoes, borș (traditional sour broth)"
    ],
    [
     "SUPE / CIORBE",
@@ -176,8 +176,8 @@
     "",
     "https://drive.google.com/file/d/1DBb4D1PnaWp4IpGccHa_L1EzppFTk-Ss/view?usp=sharing",
     "DA",
-    "Cold platter",
-    "Cold cuts, cheeses, olives, tomatoes, cucumbers."
+    "Chicken sour soup",
+    "Chicken breast, carrot, celery, tomatoes, potatoes, borș (traditional sour broth)"
    ],
    [
     "SUPE / CIORBE",
@@ -188,8 +188,8 @@
     "",
     "https://drive.google.com/file/d/1JH-TNih-yFc84hSVoGDV6QjHXpTesamm/view?usp=drive_link",
     "DA",
-    "Aubergine dip",
-    "With onion, served with toasted bread."
+    "Beef sour soup",
+    "Beef, carrot, celery, tomatoes, potatoes, borș (traditional sour broth)"
    ],
    [
     "Gustări reci",
@@ -197,11 +197,11 @@
     "năut, tahina, lămâie, ulei de măsline, condimente",
     "150gr",
     "16.90",
-    "",
+    "POST",
     "https://drive.google.com/file/d/1Kd4BQgPTdtJcDe5RmSCR8XPpkm1mbwL2/view?usp=drive_link",
     "DA",
-    "Tomato bruschetta",
-    "Toasted bread, tomatoes, garlic, basil."
+    "Classic hummus",
+    "Chickpeas, tahini, lemon, olive oil, spices"
    ],
    [
     "GUSTĂRI RECI",
@@ -209,11 +209,11 @@
     "năut, tahina, lămâie, ulei de măsline, trufe, condimente",
     "150gr",
     "17.90",
-    "",
+    "POST",
     "https://drive.google.com/file/d/1H_nmJFk2Y-UmDRm-I7TK-5ve7Gsy93a4/view?usp=drive_link",
     "DA",
-    "Spicy chicken wings",
-    "Crispy chicken wings with barbecue sauce."
+    "Truffle hummus",
+    "Chickpeas, tahini, lemon, olive oil, truffle, spices"
    ],
    [
     "GUSTĂRI RECI",
@@ -221,11 +221,11 @@
     "năut, tahina, condimente, usturoi, pătrunjel, pastă de ardei iute, ceapă lămâie, ulei de măsline, roșii",
     "150gr",
     "16.90",
-    "Picant",
+    "POST",
     "https://drive.google.com/file/d/1L5KMkX4bLTFb5ufvJW1GoO-9gH3BZwNb/view?usp=drive_link",
     "DA",
-    "Breaded cheese",
-    "With tartar sauce."
+    "Hummus Beiruti (spicy)",
+    "Chickpeas, tahini, spices, garlic, parsley, chili paste, onion, lemon, olive oil, tomatoes"
    ],
    [
     "GUSTĂRI RECI",
@@ -236,8 +236,8 @@
     "",
     "https://drive.google.com/file/d/1Oemw7pKG681W279NO0mMT2Swu9fnD2Vv/view?usp=drive_link",
     "DA",
-    "Parmesan fries",
-    "With garlic and parsley."
+    "Hummus with beef and pine nuts",
+    "Chickpeas, tahini, lemon, olive oil, spices, beef, pine nuts"
    ],
    [
     "GUSTĂRI RECI",
@@ -245,11 +245,11 @@
     "năut, tahina, lămâie, ulei de măsline, condimente, muguri de pin",
     "150G",
     "19.90",
-    "Clasică",
+    "POST",
     "https://drive.google.com/file/d/1dDr3pVf6x7CE-0p2TkKTawfzvth8piD3/view?usp=drive_link",
     "DA",
-    "Margherita",
-    "Tomato sauce, mozzarella, fresh basil, olive oil."
+    "Hummus with pine nuts",
+    "Chickpeas, tahini, lemon, olive oil, spices, pine nuts"
    ],
    [
     "GUSTĂRI RECI",
@@ -260,8 +260,8 @@
     "",
     "https://drive.google.com/file/d/1Oemw7pKG681W279NO0mMT2Swu9fnD2Vv/view?usp=drive_link",
     "DA",
-    "Prosciutto e Funghi",
-    "Tomato sauce, mozzarella, ham, mushrooms."
+    "Hummus with beef",
+    "Chickpeas, tahini, lemon, olive oil, spices, beef"
    ],
    [
     "GUSTĂRI RECI",
@@ -269,11 +269,11 @@
     "vinete, tahina, boabe de rodie, usturoi, iaurt, ulei de măsline, condimente",
     "150G",
     "16.90",
-    "",
+    "POST",
     "https://drive.google.com/file/d/1AQOnp6izR7M3tY5aigLk_tv-JF6oh1bk/view?usp=drive_link",
     "DA",
-    "Quattro Formaggi",
-    "Mozzarella, gorgonzola, parmesan, smoked cheese."
+    "Moutabal",
+    "Eggplant, tahini, pomegranate seeds, garlic, yogurt, olive oil, spices"
    ],
    [
     "GUSTĂRI RECI",
@@ -281,11 +281,11 @@
     "vinete, ardei gras, sos de rodie, ceapă, pătrunjel, roșii",
     "150G",
     "15.90",
-    "Picantă",
+    "POST",
     "https://drive.google.com/file/d/1btqvnHRaud8n9eWvr5-qFT9dDvUUvEpX/view?usp=drive_link",
     "DA",
-    "Diavola",
-    "Tomato sauce, mozzarella, spicy salami, hot pepper."
+    "Baba ganoush",
+    "Eggplant, bell pepper, pomegranate sauce, onion, parsley, tomatoes"
    ],
    [
     "GUSTĂRI RECI",
@@ -296,8 +296,8 @@
     "Recomandat",
     "https://drive.google.com/file/d/1Jq0eqPIw8kX5BtwekH-Celma3aSpaJGS/view?usp=drive_link",
     "DA",
-    "House pizza",
-    "Tomato sauce, mozzarella, chicken, bacon, sweetcorn, bell pepper."
+    "Labneh",
+    "Strained yogurt cream, olive oil"
    ],
    [
     "GUSTĂRI RECI",
@@ -308,8 +308,8 @@
     "",
     "https://drive.google.com/file/d/1oI6m2Zqe1vA-qKcXxwZWuC0VvVx__Q9E/view?usp=drive_link",
     "DA",
-    "Spaghetti Carbonara",
-    "Guanciale, egg yolk, pecorino, black pepper."
+    "Truffle labneh",
+    "Strained yogurt cream, truffle, olive oil"
    ],
    [
     "GUSTĂRI RECI",
@@ -320,8 +320,8 @@
     "",
     "https://drive.google.com/file/d/1LHkvPzReRAHHp2I2Mu6_o8p9jwXw6UcC/view?usp=drive_link",
     "DA",
-    "Penne Arrabbiata",
-    "Spicy tomato sauce with garlic and parsley."
+    "Labneh with mint & garlic",
+    "Strained yogurt cream, mint, garlic, olive oil"
    ],
    [
     "GUSTĂRI RECI",
@@ -329,11 +329,11 @@
     "hummus, babaganoush, moutabal, labneh",
     "400G",
     "41.90",
-    "",
+    "POST",
     "https://drive.google.com/file/d/1ItEYa2U-_V6NgGztldPmmr01BTHeJkOV/view?usp=drive_link",
     "DA",
-    "Chicken Caesar salad",
-    "Lettuce, grilled chicken, croutons, parmesan, dressing."
+    "Mixed mezze platter",
+    "Hummus, baba ganoush, moutabal, labneh"
    ],
    [
     "",
@@ -344,8 +344,8 @@
     "",
     "",
     "DA",
-    "Greek salad",
-    "Tomatoes, cucumbers, peppers, red onion, olives, feta."
+    "",
+    ""
    ],
    [
     "GUSTĂRI CALDE",
@@ -353,11 +353,11 @@
     "chiftele de năut, susan, sos tahina, castraveți murați, roșii",
     "4 BUC",
     "23.90",
-    "",
+    "POST",
     "https://drive.google.com/file/d/1Qd0QxgZkXSbnHFtDYE5TCLtcwf152BPT/view?usp=drive_link",
     "DA",
-    "Tiramisu",
-    "Mascarpone, espresso-soaked ladyfingers, cocoa."
+    "Falafel",
+    "Chickpea fritters, sesame, tahini sauce, pickled cucumbers, tomatoes"
    ],
    [
     "GUSTĂRI CALDE",
@@ -368,8 +368,8 @@
     "",
     "https://drive.google.com/file/d/1VjKQwa6afi3KRmk48PRqxsalsnOuwpgv/view?usp=drive_link",
     "DA",
-    "Papanași (Romanian doughnuts)",
-    "With sour cream and blueberry jam."
+    "Chicken livers in lemon sauce",
+    "Chicken livers, spices, lemon juice"
    ],
    [
     "GUSTĂRI CALDE",
@@ -380,8 +380,8 @@
     "",
     "https://drive.google.com/file/d/1ieDycJlCJ_fihXgIH9a2j9yy03l7tLbh/view?usp=drive_link",
     "DA",
-    "Homemade lemonade",
-    "Lemon, mint, honey."
+    "Chicken livers in pomegranate sauce",
+    "Chicken livers, spices, pomegranate sauce"
    ],
    [
     "GUSTĂRI CALDE",
@@ -392,8 +392,8 @@
     "",
     "https://drive.google.com/file/d/1dOtYHV-WbxNZ0rcqnnCj6eel2INewgDk/view?usp=drive_link",
     "DA",
-    "Still / sparkling water",
-    ""
+    "Chicken sharhat",
+    "Chicken breast, mint, lemon, garlic, spices"
    ],
    [
     "GUSTĂRI CALDE",
@@ -404,8 +404,8 @@
     "",
     "https://drive.google.com/file/d/1l4nwa3j6QPDW5LVO9iKRQtpLwfBxhukF/view?usp=drive_link",
     "DA",
-    "Espresso",
-    ""
+    "Beef sharhat",
+    "Beef tenderloin, mint, lemon, garlic, spices"
    ],
    [
     "GUSTĂRI CALDE",
@@ -416,8 +416,8 @@
     "",
     "https://drive.google.com/file/d/1W8zhxdwj4FkTv5dDcphhNezqBGU1H7Sw/view?usp=drive_link",
     "DA",
-    "Bârlad-style sour soup",
-    ""
+    "Chicken croquettes",
+    "Chicken breast, egg, flour, breadcrumbs, spices, lemon, garlic"
    ],
    [
     "GUSTĂRI CALDE",
@@ -428,8 +428,8 @@
     "",
     "https://drive.google.com/file/d/1LcEMHfPk1Wfwh6md0aOMUCiAMbgspESV/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "El Sheikh chicken breast",
+    "Chicken breast, mushrooms, cream, wine, cooking cream, garlic"
    ],
    [
     "GUSTĂRI CALDE",
@@ -440,8 +440,8 @@
     "",
     "https://drive.google.com/file/d/1imkQXFrn6l6w0GumIoNZ-Pgknj1gbMGC/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Chicken Ras Asfour",
+    "Chicken breast, onion, garlic, pomegranate sauce, spices"
    ],
    [
     "GUSTĂRI CALDE",
@@ -452,8 +452,8 @@
     "",
     "https://drive.google.com/file/d/1l4nwa3j6QPDW5LVO9iKRQtpLwfBxhukF/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Beef Ras Asfour",
+    "Beef tenderloin, onion, pomegranate sauce, spices"
    ],
    [
     "GUSTĂRI CALDE",
@@ -500,8 +500,8 @@
     "",
     "https://drive.google.com/file/d/1WqctpTkjEsWdAZFi-uB5AQl7OlZrl4kR/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Chicken shawarma",
+    "Chicken breast, garlic mayonnaise, fresh vegetable salad, fresh-cut fries, spices"
    ],
    [
     "FEL PRINCIPAL",
@@ -512,8 +512,8 @@
     "",
     "https://drive.google.com/file/d/1oEsY8bfXRmAW3hDhWRfM6DxLSIsGlVBN/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "Beef shawarma",
+    "Veal tenderloin, garlic, tahini sauce, bioaz (onion, parsley & sumac salad), onion, fries, spices, pickled cucumbers"
    ],
    [
     "FEL PRINCIPAL",
@@ -524,8 +524,8 @@
     "",
     "https://drive.google.com/file/d/1sa_Q_veWfzkjWMYiyLgDM0IFPblKT2zf/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Chicken wings in spicy sauce",
+    "Chicken wings, spicy sauce, garlic, spices"
    ],
    [
     "FEL PRINCIPAL",
@@ -548,8 +548,8 @@
     "",
     "https://drive.google.com/file/d/1d8CkH4d2XjkfpHGTdxxpDitv3nWww5pv/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Grilled chicken wings",
+    "Chicken wings, coleslaw, garlic mayonnaise, fries"
    ],
    [
     "GRĂTAR",
@@ -560,8 +560,8 @@
     "",
     "https://drive.google.com/file/d/1Be1eKSPTj5pp1fyo5SeH-Oyk1JvLC72A/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Grilled chicken breast",
+    "Grilled chicken breast, coleslaw, mayonnaise, fries"
    ],
    [
     "GRĂTAR",
@@ -572,8 +572,8 @@
     "",
     "https://drive.google.com/file/d/1mqsTjaeSl2WR8cWPs4ezy6JK8Fq2_7dU/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Shish taouk",
+    "Chicken breast, coleslaw, garlic mayonnaise, fries"
    ],
    [
     "GRĂTAR",
@@ -584,8 +584,8 @@
     "",
     "https://drive.google.com/file/d/1bZcVaV94wzL8SkoWbbxmWVfL1KKmAPyh/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Beef skewers",
+    "Beef tenderloin, bioaz salad (onion, parsley & sumac), fries, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -596,8 +596,8 @@
     "",
     "https://drive.google.com/file/d/1qXApd6NuTo9dUK_BaU8KOkVIYSAIhFt_/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Kafta",
+    "Minced beef & lamb, parsley, onion, bioaz salad, fries, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -608,8 +608,8 @@
     "",
     "https://drive.google.com/file/d/1TUTmuUHvblLDJqJgEaBV14jJiN9UGBFi/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Yogurt kebab",
+    "Minced beef & lamb, parsley, onion, bioaz salad, yogurt, spices, mint, garlic, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -620,8 +620,8 @@
     "Picant",
     "https://drive.google.com/file/d/1f2sxWkWFESkiHI2IgndKdbVko43dcKyA/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Kebab Has Has (spicy)",
+    "Minced beef & lamb, parsley, onion, bioaz salad, tomato sauce, spices, chili paste, garlic, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -632,8 +632,8 @@
     "Picant",
     "https://drive.google.com/file/d/1HVWxOFYEPWVy4EgABAcmyteV6pkkC4Yt/view?usp=sharing",
     "DA",
-    "",
-    ""
+    "Adana kebab (spicy)",
+    "Minced beef & lamb, parsley, garlic, onion, chili paste, spices, bioaz salad, fries"
    ],
    [
     "GRĂTAR",
@@ -644,8 +644,8 @@
     "",
     "https://drive.google.com/file/d/17o1qkeyIEUCXMa6cfwHd5FwHBfi0HrlS/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Kebab Baiti",
+    "Minced beef & lamb, parsley, mozzarella, onion, spices, bioaz salad, oven-baked flatbread, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -656,8 +656,8 @@
     "",
     "https://drive.google.com/file/d/1dU9cH_GKIcURhOy669PWPwQZS_FRLwJ4/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Mixed grill",
+    "Chicken and beef skewers, kafta, bioaz salad, fries, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -668,8 +668,8 @@
     "",
     "https://drive.google.com/file/d/1eYVM2tnybJSEyKbSOql7dv89M5ox_WYy/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Lamb chops (Kastaleta)",
+    "Lamb cutlets, bioaz salad, fries, grilled vegetables"
    ],
    [
     "GRĂTAR",
@@ -692,8 +692,8 @@
     "",
     "https://drive.google.com/file/d/1ETFLK-ZYQ9z2kK5x7FUjml9iv2B7Fqht/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "Calamari rings",
+    "Calamari rings, lemon"
    ],
    [
     "DIN MARE",
@@ -704,8 +704,8 @@
     "",
     "https://drive.google.com/file/d/1e14JoEkbHs8EChnSfkZvoWi2Qit8zI7G/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "El Sheikh shrimp",
+    "Shrimp, garlic, lemon, spices"
    ],
    [
     "DIN MARE",
@@ -716,8 +716,8 @@
     "",
     "https://drive.google.com/file/d/1LXkkBFQb0qINy6PZMcgPXTheyaJ8a2ox/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "Grilled salmon",
+    "Salmon fillet, lemon, grilled vegetables"
    ],
    [
     "DIN MARE",
@@ -728,8 +728,8 @@
     "",
     "https://drive.google.com/file/d/1Z_9K1v2f4C02UUv8t_akm7qLZ44TIiqf/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "Grilled sea bream",
+    "Sea bream, lemon, grilled vegetables"
    ],
    [
     "GARNITURI",
@@ -740,8 +740,8 @@
     "",
     "https://drive.google.com/file/d/1RVmxxgpQcB24ghTFeaYFQfQkIQlK8iNI/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Rice",
+    "Basmati rice, butter, spices"
    ],
    [
     "GARNITURI",
@@ -752,8 +752,8 @@
     "",
     "https://drive.google.com/file/d/1EHO82JM2sV9p0YFmUWh9AGFrmWKoyy9F/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Yellow rice",
+    "Basmati rice, saffron, butter, spices"
    ],
    [
     "GARNITURI",
@@ -764,8 +764,8 @@
     "",
     "https://drive.google.com/file/d/1o6adB2M-VPagXS-pqwtHcPR2chxIoaQU/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "El Sheikh rice",
+    "Basmati rice, beef, raisins, pine nuts, butter, spices"
    ],
    [
     "GARNITURI",
@@ -776,8 +776,8 @@
     "",
     "https://drive.google.com/file/d/167tqX8V7OelbKuX0-tUZC5T-Vwf4iUcS/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Sautéed mushrooms",
+    "Mushrooms, parsley, garlic, butter, spices"
    ],
    [
     "GARNITURI",
@@ -788,8 +788,8 @@
     "",
     "https://drive.google.com/file/d/1oWdUbI8eFGJZ2GKKHCpJDwT6kBsPTV91/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Grilled vegetables",
+    "Eggplant, zucchini, tomatoes, mushrooms, bell peppers"
    ],
    [
     "GARNITURI",
@@ -800,8 +800,8 @@
     "",
     "https://drive.google.com/file/d/1--wOtpvJaDqA1iamyD5n_lB4hr7PkMLs/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Parmesan & garlic fries",
+    "Fresh potatoes, parmesan, garlic"
    ],
    [
     "GARNITURI",
@@ -812,8 +812,8 @@
     "",
     "https://drive.google.com/file/d/1m0dbVjHMISBM6kqp_vY_sGqQOJo_yEOm/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "French fries",
+    "Fresh potatoes"
    ],
    [
     "GARNITURI",
@@ -824,8 +824,8 @@
     "",
     "https://drive.google.com/file/d/1uZ195pnzuhrrDYkZihjjIMdnKB6eyvhx/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Mint & garlic potatoes",
+    "Potatoes, mint, garlic, lemon"
    ],
    [
     "GARNITURI",
@@ -836,8 +836,8 @@
     "",
     "https://drive.google.com/file/d/1uZ195pnzuhrrDYkZihjjIMdnKB6eyvhx/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Spicy potatoes (batata harra)",
+    "Fresh potatoes, coriander, chili paste, lemon, garlic"
    ],
    [
     "GARNITURI",
@@ -848,7 +848,7 @@
     "",
     "",
     "",
-    "",
+    "Fries with telemea cheese",
     ""
    ],
    [
@@ -860,7 +860,7 @@
     "",
     "",
     "",
-    "",
+    "Fries with telemea cheese and egg",
     ""
    ],
    [
@@ -872,7 +872,7 @@
     "",
     "",
     "",
-    "",
+    "Mozzarella sticks",
     ""
    ],
    [
@@ -896,8 +896,8 @@
     "",
     "https://drive.google.com/file/d/1O_N1N_fBrkhEVlNUJopRm0q23f5QW-Rb/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Tabbouleh",
+    "Parsley, tomatoes, onion, bulgur, lemon, olive oil, spices"
    ],
    [
     "SALATE",
@@ -908,8 +908,8 @@
     "",
     "https://drive.google.com/file/d/17X9wM-QQ-6tS_-yiIKap6CffsXf9QZJV/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Fattoush",
+    "Lettuce, tomatoes, cucumbers, sumac, pomegranate sauce, lemon, olive oil, croutons, bell pepper"
    ],
    [
     "SALATE",
@@ -920,8 +920,8 @@
     "",
     "https://drive.google.com/file/d/12XF_8Ei9azNNVlW0VXFw6f13D4ccyNwg/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Mixed salad",
+    "Lettuce, tomatoes, cucumbers, bell pepper, onion, olive oil"
    ],
    [
     "SALATE",
@@ -932,8 +932,8 @@
     "",
     "https://drive.google.com/file/d/193BHKH9FgHZ_T-T-cB7C3pvzbKvANDB5/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Cabbage salad",
+    "Lettuce, tomatoes, cucumbers, bell pepper, onion, olive oil"
    ],
    [
     "SALATE",
@@ -944,8 +944,8 @@
     "",
     "https://drive.google.com/file/d/1vKnu9ecOY2rRSyMHfE9YfAcz0Z7eX7wT/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Green salad",
+    "Lettuce, lemon salt, olive oil"
    ],
    [
     "SALATE",
@@ -956,8 +956,8 @@
     "",
     "https://drive.google.com/file/d/1SWFkgT2gu4Or874s_9U7m1RbRxH_tOqf/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Greek salad",
+    "Lettuce, tomatoes, cucumbers, feta cheese, onion, lemon, olives, olive oil"
    ],
    [
     "SALATE",
@@ -968,8 +968,8 @@
     "",
     "https://drive.google.com/file/d/1178G4EebkBiepuVXlkrlEyihmuuYBWPj/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Chicken salad",
+    "Tomatoes, cucumbers, onion, croutons, chicken strips"
    ],
    [
     "SALATE",
@@ -980,8 +980,8 @@
     "",
     "https://drive.google.com/file/d/1msYNcWGTcUlDSQc_XKKOTkLRrq-8XjoU/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Falafel salad",
+    "Lettuce, tomatoes, cucumbers, onion, falafel (4 pcs), carrot"
    ],
    [
     "SALATE",
@@ -992,8 +992,8 @@
     "",
     "https://drive.google.com/file/d/1DaiQMnrqwKyNL3xaiE3f2nkSx5wVpksA/view?usp=drive_link",
     "NU",
-    "",
-    ""
+    "Shrimp salad",
+    "Lettuce, tomatoes, cucumbers, onion, shrimp (8 pcs)"
    ],
    [
     "SALATE",
@@ -1004,8 +1004,8 @@
     "",
     "https://drive.google.com/file/d/13OARn6RMNuaVFNnIB9VR3sr4ojPzcGXN/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Coleslaw",
+    "Carrot, mayonnaise, white cabbage"
    ],
    [
     "SALATE",
@@ -1016,7 +1016,7 @@
     "",
     "https://drive.google.com/file/d/18Qo_fcNo-NjwV8EhJJOSkVk_dyJAiNW8/view?usp=drive_link",
     "DA",
-    "",
+    "Pickled cucumber salad",
     ""
    ],
    [
@@ -1052,7 +1052,7 @@
     "",
     "https://drive.google.com/file/d/1Jn6pxUsTuZOOn1HqQRe4WHnDqOGWrRKX/view?usp=drive_link",
     "DA",
-    "",
+    "Lebanese oven-baked flatbread",
     ""
    ],
    [
@@ -1064,7 +1064,7 @@
     "",
     "https://drive.google.com/file/d/1AqcfJpn6o3VcMBGaeOd9yKDkjvw-D4-v/view?usp=drive_link",
     "DA",
-    "",
+    "Plain flatbread",
     ""
    ],
    [
@@ -1076,7 +1076,7 @@
     "",
     "https://drive.google.com/file/d/1blBDcxxB5T0NgoQeIuvmco5G0f_iiRSN/view?usp=drive_link",
     "",
-    "",
+    "Croutons",
     ""
    ],
    [
@@ -1085,11 +1085,11 @@
     "tahina, usturoi, lămâie",
     "50G",
     "5",
-    "",
+    "post",
     "https://drive.google.com/file/d/1eyLUodpt5zNHB_Y0n1OdW9SaFxccmU-B/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Tarator (sesame sauce)",
+    "Tahini, garlic, lemon"
    ],
    [
     "SOSURI",
@@ -1100,8 +1100,8 @@
     "",
     "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Hot sauce",
+    "Tomato sauce, chili paste"
    ],
    [
     "SOSURI",
@@ -1112,7 +1112,7 @@
     "",
     "https://drive.google.com/file/d/1N92DHkCYbN-RGkejC0lKPLTZCuGOVKIc/view?usp=drive_link",
     "DA",
-    "",
+    "Garlic mayonnaise",
     ""
    ],
    [
@@ -1124,7 +1124,7 @@
     "",
     "https://drive.google.com/file/d/18NCGV441G1S_OhEgLyQ63g9HSRysAROv/view?usp=drive_link",
     "DA",
-    "",
+    "Mayonnaise",
     ""
    ],
    [
@@ -1136,7 +1136,7 @@
     "",
     "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "NU",
-    "",
+    "Sweet tomato sauce",
     ""
    ],
    [
@@ -1148,7 +1148,7 @@
     "",
     "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "NU",
-    "",
+    "Spicy tomato sauce",
     ""
    ],
    [
@@ -1160,7 +1160,7 @@
     "",
     "https://drive.google.com/file/d/1uwIXnoj8k3J5u31LwrB5lpRjiYm1A8Vz/view?usp=drive_link",
     "DA",
-    "",
+    "Yogurt cream with mint & garlic",
     ""
    ],
    [
@@ -1172,7 +1172,7 @@
     "",
     "https://drive.google.com/file/d/1wZ5Tgl9cjBsPiyqcrV3oyjToAcx3-PXZ/view?usp=drive_link",
     "DA",
-    "",
+    "Yogurt cream",
     ""
    ],
    [
@@ -1184,7 +1184,7 @@
     "",
     "https://drive.google.com/file/d/1PkNk8S4EqN9pmNWuNRcB3DDrxU1eiUKw/view?usp=drive_link",
     "DA",
-    "",
+    "Truffle yogurt cream",
     ""
    ],
    [
@@ -1196,7 +1196,7 @@
     "",
     "",
     "DA",
-    "",
+    "Spicy mayonnaise",
     ""
    ],
    [
@@ -1208,7 +1208,7 @@
     "",
     "",
     "DA",
-    "",
+    "Cheddar sauce",
     ""
    ],
    [
@@ -1220,7 +1220,7 @@
     "",
     "",
     "DA",
-    "",
+    "Truffle mayonnaise",
     ""
    ],
    [
@@ -1232,8 +1232,8 @@
     "",
     "",
     "DA",
-    "",
-    ""
+    "Schnitzel menu",
+    "Schnitzel of your choice, fries, sauce, cabbage salad"
    ],
    [
     "SCHNITZEL",
@@ -1244,8 +1244,8 @@
     "",
     "",
     "DA",
-    "",
-    ""
+    "Quattro formaggi chicken schnitzel",
+    "Chicken breast, cheese, mozzarella, gorgonzola, parmesan"
    ],
    [
     "SCHNITZEL",
@@ -1256,8 +1256,8 @@
     "",
     "https://drive.google.com/file/d/1jjKHV_ATMBRiaj149uhe4usLyhselWd6/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Fried egg chicken schnitzel",
+    "A childhood favourite: chicken schnitzel, tomato sauce, mozzarella, bacon, fried egg"
    ],
    [
     "SCHNITZEL",
@@ -1268,8 +1268,8 @@
     "",
     "https://drive.google.com/file/d/1DDUoLC8_DojKcKwpSE0NVv35x8zhKDdJ/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Garlic chicken schnitzel",
+    "Chicken schnitzel, tomato sauce, bacon, cheese and garlic sauce"
    ],
    [
     "SCHNITZEL",
@@ -1280,8 +1280,8 @@
     "",
     "https://drive.google.com/file/d/1bcVlsdsHWoaoKv5cHQQMoHq5aThvrWxh/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Classic chicken schnitzel",
+    "Chicken schnitzel with tomato sauce, fresh basil and mozzarella"
    ],
    [
     "SCHNITZEL",
@@ -1292,8 +1292,8 @@
     "",
     "https://drive.google.com/file/d/1nQlOnpJeexNqFMi_2k9VqUr0EeEzZ_sR/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Chicken schnitzel with cheese",
+    "Chicken schnitzel with tomato sauce, cheese and oregano"
    ],
    [
     "SCHNITZEL",
@@ -1304,8 +1304,8 @@
     "",
     "https://drive.google.com/file/d/1Sfzanngit0Eyms02gFS-ApuaMAVEh1N6/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Basic chicken schnitzel",
+    "Chicken schnitzel – 220 g"
    ],
    [
     "CRISPY STRIPS",
@@ -1316,7 +1316,7 @@
     "",
     "https://drive.google.com/file/d/1ly2lCbbM6fjPMOOp0EwuA8lnOQEmTV2L/view?usp=drive_link",
     "DA",
-    "",
+    "Chicken strips with fries and a sauce of your choice",
     ""
    ],
    [
@@ -1328,7 +1328,7 @@
     "",
     "https://drive.google.com/file/d/1ly2lCbbM6fjPMOOp0EwuA8lnOQEmTV2L/view?usp=drive_link",
     "DA",
-    "",
+    "Shanghai chicken with fries and a sauce of your choice",
     ""
    ],
    [
@@ -1338,9 +1338,9 @@
     "",
     "30.9",
     "",
-    "",
+    "https://drive.google.com/file/d/1FKz4fF8SRJ3LOPHwDhjkQ2sUL3E17Jty/view?usp=drive_link",
     "DA",
-    "",
+    "Crispy wings menu (5 pcs) with fries and a sauce of your choice",
     ""
    ],
    [
@@ -1350,10 +1350,10 @@
     "",
     "129.9",
     "",
-    "",
+    "https://drive.google.com/file/d/1HBT9CZAzciMfYE437lvK3tlxAk1Fz4nT/view?usp=drive_link",
     "DA",
-    "",
-    ""
+    "Bucket menu",
+    "16 wings, 16 chicken strips, 4 portions of fries, 4 sauces"
    ],
    [
     "CRISPY STRIPS",
@@ -1364,8 +1364,8 @@
     "",
     "",
     "NU",
-    "",
-    ""
+    "Crispy chicken",
+    "3 pcs"
    ],
    [
     "CRISPY STRIPS",
@@ -1376,8 +1376,8 @@
     "",
     "",
     "NU",
-    "",
-    ""
+    "Crispy wings",
+    "3 pcs"
    ],
    [
     "DESERT",
@@ -1386,10 +1386,10 @@
     "170G",
     "15.9",
     "",
+    "https://drive.google.com/file/d/1kVDJsXSix5l7M5H-wzJo07pcmX9ZjbJY/view?usp=drive_link",
     "",
-    "",
-    "",
-    ""
+    "Kasta",
+    "Milk cream (ashta), bananas, pistachios, honey"
    ],
    [
     "DESERT",
@@ -1398,10 +1398,10 @@
     "150G",
     "14.9",
     "",
+    "https://drive.google.com/file/d/1AAcIn4SH8nN06byMy5H4b8ZotskfZFIa/view?usp=drive_link",
     "",
-    "",
-    "",
-    ""
+    "Homemade tiramisu",
+    "Mascarpone cream, ladyfingers, coffee, cocoa powder"
    ]
   ]
  }
