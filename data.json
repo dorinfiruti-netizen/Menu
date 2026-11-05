@@ -73,43 +73,61 @@
     "FEL PRINCIPAL",
     "",
     "DA",
-    "Pizza"
+    "MAIN COURSE"
    ],
    [
     "GRĂTAR",
     "",
     "DA",
-    "Pasta"
+    "GRILL"
    ],
    [
     "DIN MARE",
     "",
     "NU",
-    "Salads"
+    "DIN MARE"
    ],
    [
     "GARNITURI",
     "",
     "DA",
-    "Desserts"
+    "SIDE DISHES"
    ],
    [
     "SALATE",
     "",
     "DA",
-    "Salads"
+    "SALATS"
    ],
    [
     "PÂINE",
     "",
     "DA",
-    "PÂINE"
+    "BREAD"
    ],
    [
     "SOSURI",
     "",
     "DA",
-    "SOSURI"
+    "SAUCES"
+   ],
+   [
+    "DESERT",
+    "",
+    "DA",
+    "DESERT"
+   ],
+   [
+    "SCHNITZEL",
+    "",
+    "DA",
+    "SCHNITZEL"
+   ],
+   [
+    "CRISPY STRIPS",
+    "",
+    "DA",
+    "CRISPY STRIPS"
    ]
   ],
   "Produse": [
@@ -705,7 +723,7 @@
     "DIN MARE",
     "Doradă la grătar",
     "doradă, lămâie, legume la grătar",
-    "(250/120)",
+    "370G (250/120)",
     "54.9",
     "",
     "https://drive.google.com/file/d/1Z_9K1v2f4C02UUv8t_akm7qLZ44TIiqf/view?usp=drive_link",
@@ -1068,7 +1086,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1eyLUodpt5zNHB_Y0n1OdW9SaFxccmU-B/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1080,7 +1098,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1092,7 +1110,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1N92DHkCYbN-RGkejC0lKPLTZCuGOVKIc/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1104,7 +1122,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/18NCGV441G1S_OhEgLyQ63g9HSRysAROv/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1116,7 +1134,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "NU",
     "",
     ""
@@ -1128,7 +1146,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1IWthjETdM4lUcX9e92clpMo_UL1xqJ20/view?usp=drive_link",
     "NU",
     "",
     ""
@@ -1140,7 +1158,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1uwIXnoj8k3J5u31LwrB5lpRjiYm1A8Vz/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1152,7 +1170,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1wZ5Tgl9cjBsPiyqcrV3oyjToAcx3-PXZ/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1164,7 +1182,7 @@
     "50G",
     "5",
     "",
-    "",
+    "https://drive.google.com/file/d/1PkNk8S4EqN9pmNWuNRcB3DDrxU1eiUKw/view?usp=drive_link",
     "DA",
     "",
     ""
@@ -1201,7 +1219,187 @@
     "5",
     "",
     "",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Meniu Snitel",
+    "snitel la alegere, cartofi prajiti, sos, salata de varza",
+    "550G",
+    "47.9",
+    "",
+    "",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui quattro formaggi",
+    "piept de pui, cascaval, mozzarella, gorgonzola, parmezan",
+    "320G",
+    "31.9",
+    "",
+    "",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui fried egg",
+    "Placerea copilariei: snitel de pui, sos de rosii, mozzarella, bacon, ou prajit",
+    "350G",
+    "32.9",
+    "",
+    "https://drive.google.com/file/d/1jjKHV_ATMBRiaj149uhe4usLyhselWd6/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui cu usturoi",
+    "Snitel de pui, sos de rosii, bacon, cascaval si sos de usturoi",
+    "310G",
+    "28.9",
+    "",
+    "https://drive.google.com/file/d/1DDUoLC8_DojKcKwpSE0NVv35x8zhKDdJ/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui clasic",
+    "Snitel de pui cu sos de rosii, busuioc proaspat si mozzarella",
+    "",
+    "28.9",
+    "",
+    "https://drive.google.com/file/d/1bcVlsdsHWoaoKv5cHQQMoHq5aThvrWxh/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui cu cascaval",
+    "Snitel de pui cu sos de rosii, cascaval si oregano",
+    "",
+    "28.9",
+    "",
+    "https://drive.google.com/file/d/1nQlOnpJeexNqFMi_2k9VqUr0EeEzZ_sR/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "SCHNITZEL",
+    "Snitel de pui basic",
+    "Snitel de pui - 220g",
+    "220G",
+    "23.9",
+    "",
+    "https://drive.google.com/file/d/1Sfzanngit0Eyms02gFS-ApuaMAVEh1N6/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Strips de pui cu cartofi prajiti si un sos la alegere",
+    "",
+    "350G",
+    "31.9",
+    "",
+    "https://drive.google.com/file/d/1ly2lCbbM6fjPMOOp0EwuA8lnOQEmTV2L/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Pui Shanghai cu cartofi prajiti si un sos la alegere",
+    "",
+    "350G",
+    "30.9",
+    "",
+    "https://drive.google.com/file/d/1ly2lCbbM6fjPMOOp0EwuA8lnOQEmTV2L/view?usp=drive_link",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Meniu aripioare crispy (5buc) cu cartofi prajiti si un sos la alegere",
+    "",
+    "",
+    "30.9",
+    "",
+    "",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Meniu bucket",
+    "16 aripioare,16 strips de pui,4 portii de cartofi prajiti,4 sos-uri",
+    "",
+    "129.9",
+    "",
+    "",
+    "DA",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Crispy pui",
+    "3 buc",
+    "",
+    "9.9",
+    "",
+    "",
     "NU",
+    "",
+    ""
+   ],
+   [
+    "CRISPY STRIPS",
+    "Aripioare crispy",
+    "3 buc",
+    "",
+    "8.9",
+    "",
+    "",
+    "NU",
+    "",
+    ""
+   ],
+   [
+    "DESERT",
+    "Kasta",
+    "caimac de lapte, banane, fistic, miere",
+    "170G",
+    "15.9",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "DESERT",
+    "Tiramisu home made",
+    "cremă de mascarpone, pișcoturi, cafea, pudră cacao",
+    "150G",
+    "14.9",
+    "",
+    "",
+    "",
     "",
     ""
    ]
